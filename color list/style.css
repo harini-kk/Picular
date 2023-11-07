@@ -1,0 +1,89 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background-color: #f0f0f0;
+    margin: 30px;
+    padding: 0;
+    text-align: center;
+}
+
+label{
+    font-weight: 600;
+    font-size:50px;
+    text-align: center;
+    color: grey;
+}
+
+.grid {
+    display: grid;
+    gap: 1rem;
+    grid-template-rows: masonry;
+    grid-template-columns: repeat(6, 1fr);
+  }
+
+  .container{
+    padding-left: 40px;
+  }
+
+input[type="text"] {
+    margin: 15px;
+    width:35%;
+    max-width: 46rem;
+    padding: 1.3rem 2rem 1.3rem 5.6rem;
+    background:#fff url(https://picular.co/4f2eab5b295c76fbe5a3d419095e8b7c.svg) no-repeat 1.8rem 50%;
+    margin-bottom: 10px;
+    border: 1px solid #ccc;
+    border-radius: 30px;
+    font-size: 16px;
+}
+
+button {
+    padding: 10px 20px;
+    background-color: #0074d9;
+    color: #fff;
+    border: none;
+    border-radius: 4px;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+button:hover {
+    background-color: #0056b3;
+}
+
+#colorPalette {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+
+.color-box {
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+    text-align: center;
+    border-radius: 4px;
+}
+
+.colorName {
+    font-weight: bold;
+}
+
+.hexValue {
+    font-size: 14px;
+    color: #777;
+}
+
+
+.colorCard {
+    display: inline-block;
+    width: 150px;
+    height: 150px;
+    margin: 10px;
+    text-align: center;
+    color: white;
+    border-radius: 5px;
+}
+.colorName {
+    font-weight: bold;
+}
